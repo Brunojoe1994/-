@@ -1,6 +1,6 @@
 ---
 title: "Sample post"
-published: false
+published: true
 Unlink: /samplepost/
 summary: "⚠️ Access Denied — This post is intentionally disabled."
 tags: []
