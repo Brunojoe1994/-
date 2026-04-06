@@ -1,0 +1,37 @@
+your-jekyll-site/
+├── _config.yml
+├── Gemfile
+├── Gemfile.lock
+
+├── _includes/
+│   ├── trigger-badges.html
+│   ├── dynamic-sidebar.html
+│   └── header.html          # optional, standard Jekyll
+│
+├── _layouts/
+│   ├── default.html
+│   ├── page.html
+│   └── post.html
+│
+├── _pages/
+│   └── welcome-to-jekyll.md    # your updated page (Welcome to Jekyll.page)
+│
+├── _posts/
+│   └── 2024-01-01-example-post.md
+│
+├── assets/
+│   ├── css/
+│   │   ├── main.css
+│   │   └── badges.css          # optional if not using inline CSS
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       └── logo.png
+│
+├── .github/
+│   └── workflows/
+│       └── jekyll.yml          # GitHub Actions CI workflow (trigger-aware)
+│
+├── index.md
+├── 404.html
+└── README.md
